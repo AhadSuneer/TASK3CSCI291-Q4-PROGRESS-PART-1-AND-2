@@ -15,7 +15,7 @@ using namespace std;
  * Correct Signature: Second parameter must be 'char', not 'S'.
  */
 template <typename S>
-S calibrateValue(const S& x, char factor) {
+S calibrateValue(S x, S factor) {
     return x * factor;
 }
 
